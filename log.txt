@@ -1,0 +1,45 @@
+# REPORT (Weakling) ##############################
+  Losses    - 24.31%
+  Wins      - 75.69%
+    By Kill - 75.69%
+    By Rout - 0.00%
+###############################################################
+CACHE HITS:
+{
+    "cd_player": 413,
+    "cd_monster": 413,
+    "ws": 0,
+    "atk_player": 413,
+    "atk_monster": 413,
+    "breaks": 1
+}
+{
+    "a": {
+        "deaths": {
+            "numerator": 1414358522327881,
+            "denominator": 8000000000000000
+        },
+        "routs": {
+            "numerator": 0,
+            "denominator": 1
+        },
+        "kills": {
+            "numerator": 5394957498509,
+            "denominator": 6553600000000
+        }
+    },
+    "b": {
+        "deaths": {
+            "numerator": 4525947271449219,
+            "denominator": 25600000000000000
+        },
+        "routs": {
+            "numerator": 0,
+            "denominator": 1
+        },
+        "kills": {
+            "numerator": 5394957498509,
+            "denominator": 6553600000000
+        }
+    }
+}
