@@ -8,18 +8,32 @@ export interface Entity {
   ATK: number; // attack die
   RMR: number; // armor
 }
-export function entityFromJson(json: any): Entity {
-  return {
-    hp: json["hp"],
-    str: json["str"],
-
-    NAME: json["name"],
-    MAX_STR: json["str"],
-    DEX: json["dex"],
-    WIL: json["wil"],
-    ATK: json["atk"],
-    RMR: json["rmr"] ?? 0,
-  };
+export function entityFromJson(key: string, DATA: any): Entity {
+  const json = DATA[key];
+  const base: Entity = "proto" in json
+    ? entityFromJson(json["proto"], DATA)
+    : {} as Entity;
+  if ("hp" in json) {
+    base.hp = json["hp"];
+  }
+  if ("str" in json) {
+    base.str = json["str"];
+    base.MAX_STR = base.str;
+  }
+  if ("dex" in json) {
+    base.DEX = json["dex"];
+  }
+  if ("wil" in json) {
+    base.WIL = json["wil"];
+  }
+  if ("atk" in json) {
+    base.ATK = json["atk"];
+  }
+  if ("rmr" in json) {
+    base.RMR = json["rmr"];
+  }
+  base.NAME = key;
+  return base;
 }
 
 export function entityToString(entity: Entity) {
