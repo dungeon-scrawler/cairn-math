@@ -122,7 +122,7 @@ function playerTurn(state: State): Action {
   const attacks: (() => Action)[] = [];
   for (let dmg = state.player.ATK; dmg > 0; dmg--) {
     const actual = Math.max(0, dmg - state.monster.RMR);
-    const criticalSave = actual > state.player.hp;
+    const criticalSave = actual > state.monster.hp;
     const nextState = applyDamage(state, "monster", dmg);
     const moraleSave = state.monster.hp > 0 && nextState.monster.hp == 0;
 
