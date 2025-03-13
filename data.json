@@ -103,5 +103,14 @@
   "tough_a2_impaired": {
     "proto": "tough_a2",
     "atk": 4
+  },
+  "minor_detachment": {
+    "proto": "detachment",
+    "hp": 4,
+    "str": 4
+  },
+  "weakling_first": {
+    "proto": "weakling",
+    "dex": 20
   }
 }

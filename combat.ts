@@ -25,12 +25,12 @@ export function combat(state: State): Report {
   let actionDepth = 0;
   while (executeStack.length) {
     const action = executeStack[executeStack.length - 1];
-    if (action instanceof Attack && actionDepth > MAX_ATTACK_DEPTH) {
-      // resolve this action with a heuristic, pop it, and move on
-      action.setReport(heuristicOutcome(action.state));
-      executeStack.pop();
-      continue;
-    }
+    // if (action instanceof Attack && actionDepth > MAX_ATTACK_DEPTH) {
+    //   // resolve this action with a heuristic, pop it, and move on
+    //   action.setReport(heuristicOutcome(action.state));
+    //   executeStack.pop();
+    //   continue;
+    // }
 
     const child = action.executor.next();
     if (child.done) {
