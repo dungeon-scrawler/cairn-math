@@ -112,5 +112,21 @@
   "weakling_first": {
     "proto": "weakling",
     "dex": 20
+  },
+  "weakling_enhanced": {
+    "proto": "weakling",
+    "atk": 12
+  },
+  "tough_d6": {
+    "proto": "tough",
+    "atk": 6
+  },
+  "boss_d8": {
+    "proto": "boss",
+    "atk": 8
+  },
+  "boss_d6": {
+    "proto": "boss",
+    "atk": 6
   }
 }

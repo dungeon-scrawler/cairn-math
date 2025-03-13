@@ -11,3 +11,8 @@ Feel free to add or edit values in `data.json` to simulate whatever you please!
 > pitting armored foes against armored foes (after a certain threshold of low
 > stats) is not working entirely to my satisfaction. (The heuristic approach
 > currently employed is still experimental, and not highly trustworthy.)
+
+> **TODO** I'd love to make this output the likelihood of walking away (alive)
+> with a scar, or the likelihood of winning with attribute loss. I'm not yet
+> sure if that will jive with the current memoization, or if it will
+> significantly reduce the frequency of cache hits.
