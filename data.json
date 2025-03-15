@@ -64,10 +64,6 @@
         "proto": "tough",
         "rmr": 3
     },
-    "tough_d4": {
-        "proto": "tough",
-        "atk": 4
-    },
     "boss": {
         "proto": "default",
         "hp": 14,
@@ -86,9 +82,22 @@
         "proto": "boss",
         "rmr": 3
     },
-    "boss_d4": {
-        "proto": "boss",
-        "atk": 4
+    "final": {
+        "hp": 17,
+        "str": 17,
+        "atk": 12
+    },
+    "final1": {
+        "proto": "final",
+        "rmr": 1
+    },
+    "final2": {
+        "proto": "final",
+        "rmr": 2
+    },
+    "final3": {
+        "proto": "final",
+        "rmr": 3
     },
     "demigod": {
         "hp": 18,
@@ -98,88 +107,13 @@
         "wil": 20,
         "rmr": 3
     },
-    "demigod_d4": {
-        "proto": "demigod",
-        "atk": 4
-    },
-    "detachment": {
+    "green_dragon": {
         "proto": "default",
         "hp": 12,
         "str": 14,
         "atk": 12,
         "wil": 18,
-        "rmr": 2
-    },
-    "hp1": {
-        "proto": "default",
-        "hp": 1
-    },
-    "hp2": {
-        "proto": "default",
-        "hp": 2
-    },
-    "hp3": {
-        "proto": "default",
-        "hp": 3
-    },
-    "hp4": {
-        "proto": "default",
-        "hp": 4
-    },
-    "hp5": {
-        "proto": "default",
-        "hp": 5
-    },
-    "hp6": {
-        "proto": "default",
-        "hp": 6
-    },
-    "hp7": {
-        "proto": "default",
-        "hp": 7
-    },
-    "hp8": {
-        "proto": "default",
-        "hp": 8
-    },
-    "hp9": {
-        "proto": "default",
-        "hp": 9
-    },
-    "hp10": {
-        "proto": "default",
-        "hp": 10
-    },
-    "hp11": {
-        "proto": "default",
-        "hp": 11
-    },
-    "hp12": {
-        "proto": "default",
-        "hp": 12
-    },
-    "hp13": {
-        "proto": "default",
-        "hp": 13
-    },
-    "hp14": {
-        "proto": "default",
-        "hp": 14
-    },
-    "hp15": {
-        "proto": "default",
-        "hp": 15
-    },
-    "hp16": {
-        "proto": "default",
-        "hp": 16
-    },
-    "hp17": {
-        "proto": "default",
-        "hp": 17
-    },
-    "hp18": {
-        "proto": "default",
-        "hp": 18
+        "rmr": 2,
+        "detachment": true
     }
 }
