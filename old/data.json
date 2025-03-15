@@ -1,0 +1,132 @@
+{
+  "default": {
+    "hp": 6,
+    "rmr": 0,
+    "str": 10,
+    "dex": 10,
+    "wil": 10,
+    "atk": 6
+  },
+  "weakling": {
+    "proto": "default",
+    "hp": 3,
+    "str": 3,
+    "atk": 4
+  },
+  "weakling_a1": {
+    "proto": "weakling",
+    "rmr": 1
+  },
+  "weakling_a2": {
+    "proto": "weakling",
+    "rmr": 2
+  },
+  "weakling_a3": {
+    "proto": "weakling",
+    "rmr": 3
+  },
+  "average": {
+    "proto": "default",
+    "str": 6
+  },
+  "average_a1": {
+    "proto": "average",
+    "rmr": 1
+  },
+  "average_a2": {
+    "proto": "average",
+    "rmr": 2
+  },
+  "average_a3": {
+    "proto": "average",
+    "rmr": 3
+  },
+  "tough": {
+    "proto": "default",
+    "hp": 10,
+    "str": 14,
+    "atk": 8
+  },
+  "tough_a1": {
+    "proto": "tough",
+    "rmr": 1
+  },
+  "tough_a2": {
+    "proto": "tough",
+    "rmr": 2
+  },
+  "tough_a3": {
+    "proto": "tough",
+    "rmr": 3
+  },
+  "boss": {
+    "proto": "default",
+    "hp": 14,
+    "str": 14,
+    "atk": 10
+  },
+  "boss_a1": {
+    "proto": "boss",
+    "rmr": 1
+  },
+  "boss_a2": {
+    "proto": "boss",
+    "rmr": 2
+  },
+  "boss_a3": {
+    "proto": "tough",
+    "rmr": 3
+  },
+  "detachment": {
+    "proto": "default",
+    "hp": 16,
+    "str": 16,
+    "atk": 12,
+    "wil": 20
+  },
+  "detachment_a2": {
+    "proto": "detachment",
+    "rmr": 2
+  },
+  "average_impaired": {
+    "proto": "average",
+    "atk": 4
+  },
+  "tough_impaired": {
+    "proto": "tough",
+    "atk": 4
+  },
+  "boss_impaired": {
+    "proto": "boss",
+    "atk": 4
+  },
+  "tough_a2_impaired": {
+    "proto": "tough_a2",
+    "atk": 4
+  },
+  "minor_detachment": {
+    "proto": "detachment",
+    "hp": 4,
+    "str": 4
+  },
+  "weakling_first": {
+    "proto": "weakling",
+    "dex": 20
+  },
+  "weakling_enhanced": {
+    "proto": "weakling",
+    "atk": 12
+  },
+  "tough_d6": {
+    "proto": "tough",
+    "atk": 6
+  },
+  "boss_d8": {
+    "proto": "boss",
+    "atk": 8
+  },
+  "boss_d6": {
+    "proto": "boss",
+    "atk": 6
+  }
+}

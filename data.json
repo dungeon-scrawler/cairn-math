@@ -1,132 +1,185 @@
 {
-  "default": {
-    "hp": 6,
-    "rmr": 0,
-    "str": 10,
-    "dex": 10,
-    "wil": 10,
-    "atk": 6
-  },
-  "weakling": {
-    "proto": "default",
-    "hp": 3,
-    "str": 3,
-    "atk": 4
-  },
-  "weakling_a1": {
-    "proto": "weakling",
-    "rmr": 1
-  },
-  "weakling_a2": {
-    "proto": "weakling",
-    "rmr": 2
-  },
-  "weakling_a3": {
-    "proto": "weakling",
-    "rmr": 3
-  },
-  "average": {
-    "proto": "default",
-    "str": 6
-  },
-  "average_a1": {
-    "proto": "average",
-    "rmr": 1
-  },
-  "average_a2": {
-    "proto": "average",
-    "rmr": 2
-  },
-  "average_a3": {
-    "proto": "average",
-    "rmr": 3
-  },
-  "tough": {
-    "proto": "default",
-    "hp": 10,
-    "str": 14,
-    "atk": 8
-  },
-  "tough_a1": {
-    "proto": "tough",
-    "rmr": 1
-  },
-  "tough_a2": {
-    "proto": "tough",
-    "rmr": 2
-  },
-  "tough_a3": {
-    "proto": "tough",
-    "rmr": 3
-  },
-  "boss": {
-    "proto": "default",
-    "hp": 14,
-    "str": 14,
-    "atk": 10
-  },
-  "boss_a1": {
-    "proto": "boss",
-    "rmr": 1
-  },
-  "boss_a2": {
-    "proto": "boss",
-    "rmr": 2
-  },
-  "boss_a3": {
-    "proto": "tough",
-    "rmr": 3
-  },
-  "detachment": {
-    "proto": "default",
-    "hp": 16,
-    "str": 16,
-    "atk": 12,
-    "wil": 20
-  },
-  "detachment_a2": {
-    "proto": "detachment",
-    "rmr": 2
-  },
-  "average_impaired": {
-    "proto": "average",
-    "atk": 4
-  },
-  "tough_impaired": {
-    "proto": "tough",
-    "atk": 4
-  },
-  "boss_impaired": {
-    "proto": "boss",
-    "atk": 4
-  },
-  "tough_a2_impaired": {
-    "proto": "tough_a2",
-    "atk": 4
-  },
-  "minor_detachment": {
-    "proto": "detachment",
-    "hp": 4,
-    "str": 4
-  },
-  "weakling_first": {
-    "proto": "weakling",
-    "dex": 20
-  },
-  "weakling_enhanced": {
-    "proto": "weakling",
-    "atk": 12
-  },
-  "tough_d6": {
-    "proto": "tough",
-    "atk": 6
-  },
-  "boss_d8": {
-    "proto": "boss",
-    "atk": 8
-  },
-  "boss_d6": {
-    "proto": "boss",
-    "atk": 6
-  }
+    "default": {
+        "hp": 6,
+        "rmr": 0,
+        "str": 10,
+        "dex": 10,
+        "wil": 10,
+        "atk": 6
+    },
+    "test": {
+        "proto": "default",
+        "hp": 1,
+        "str": 3,
+        "atk": 2
+    },
+    "weak": {
+        "proto": "default",
+        "hp": 3,
+        "str": 3,
+        "atk": 4
+    },
+    "weak1": {
+        "proto": "weak",
+        "rmr": 1
+    },
+    "weak2": {
+        "proto": "weak",
+        "rmr": 2
+    },
+    "weak3": {
+        "proto": "weak",
+        "rmr": 3
+    },
+    "average": {
+        "proto": "default",
+        "str": 6
+    },
+    "average1": {
+        "proto": "average",
+        "rmr": 1
+    },
+    "average2": {
+        "proto": "average",
+        "rmr": 2
+    },
+    "average3": {
+        "proto": "average",
+        "rmr": 3
+    },
+    "tough": {
+        "proto": "default",
+        "hp": 10,
+        "atk": 8
+    },
+    "tough1": {
+        "proto": "tough",
+        "rmr": 1
+    },
+    "tough2": {
+        "proto": "tough",
+        "rmr": 2
+    },
+    "tough3": {
+        "proto": "tough",
+        "rmr": 3
+    },
+    "tough_d4": {
+        "proto": "tough",
+        "atk": 4
+    },
+    "boss": {
+        "proto": "default",
+        "hp": 14,
+        "str": 14,
+        "atk": 10
+    },
+    "boss1": {
+        "proto": "boss",
+        "rmr": 1
+    },
+    "boss2": {
+        "proto": "boss",
+        "rmr": 2
+    },
+    "boss3": {
+        "proto": "boss",
+        "rmr": 3
+    },
+    "boss_d4": {
+        "proto": "boss",
+        "atk": 4
+    },
+    "demigod": {
+        "hp": 18,
+        "atk": 12,
+        "str": 20,
+        "dex": 20,
+        "wil": 20,
+        "rmr": 3
+    },
+    "demigod_d4": {
+        "proto": "demigod",
+        "atk": 4
+    },
+    "detachment": {
+        "proto": "default",
+        "hp": 12,
+        "str": 14,
+        "atk": 12,
+        "wil": 18,
+        "rmr": 2
+    },
+    "hp1": {
+        "proto": "default",
+        "hp": 1
+    },
+    "hp2": {
+        "proto": "default",
+        "hp": 2
+    },
+    "hp3": {
+        "proto": "default",
+        "hp": 3
+    },
+    "hp4": {
+        "proto": "default",
+        "hp": 4
+    },
+    "hp5": {
+        "proto": "default",
+        "hp": 5
+    },
+    "hp6": {
+        "proto": "default",
+        "hp": 6
+    },
+    "hp7": {
+        "proto": "default",
+        "hp": 7
+    },
+    "hp8": {
+        "proto": "default",
+        "hp": 8
+    },
+    "hp9": {
+        "proto": "default",
+        "hp": 9
+    },
+    "hp10": {
+        "proto": "default",
+        "hp": 10
+    },
+    "hp11": {
+        "proto": "default",
+        "hp": 11
+    },
+    "hp12": {
+        "proto": "default",
+        "hp": 12
+    },
+    "hp13": {
+        "proto": "default",
+        "hp": 13
+    },
+    "hp14": {
+        "proto": "default",
+        "hp": 14
+    },
+    "hp15": {
+        "proto": "default",
+        "hp": 15
+    },
+    "hp16": {
+        "proto": "default",
+        "hp": 16
+    },
+    "hp17": {
+        "proto": "default",
+        "hp": 17
+    },
+    "hp18": {
+        "proto": "default",
+        "hp": 18
+    }
 }
