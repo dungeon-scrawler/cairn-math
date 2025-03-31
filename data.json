@@ -7,12 +7,6 @@
         "wil": 10,
         "atk": 6
     },
-    "test": {
-        "proto": "default",
-        "hp": 1,
-        "str": 3,
-        "atk": 2
-    },
     "weak": {
         "proto": "default",
         "hp": 3,
@@ -47,10 +41,28 @@
         "proto": "average",
         "rmr": 3
     },
-    "tough": {
+    "sturdy": {
         "proto": "default",
         "hp": 10,
         "atk": 8
+    },
+    "sturdy1": {
+        "proto": "sturdy",
+        "rmr": 1
+    },
+    "sturdy2": {
+        "proto": "sturdy",
+        "rmr": 2
+    },
+    "sturdy3": {
+        "proto": "sturdy",
+        "rmr": 3
+    },
+    "tough": {
+        "proto": "default",
+        "hp": 14,
+        "str": 14,
+        "atk": 10
     },
     "tough1": {
         "proto": "tough",
@@ -66,9 +78,9 @@
     },
     "boss": {
         "proto": "default",
-        "hp": 14,
-        "str": 14,
-        "atk": 10
+        "hp": 17,
+        "str": 17,
+        "atk": 12
     },
     "boss1": {
         "proto": "boss",
@@ -80,23 +92,6 @@
     },
     "boss3": {
         "proto": "boss",
-        "rmr": 3
-    },
-    "final": {
-        "hp": 17,
-        "str": 17,
-        "atk": 12
-    },
-    "final1": {
-        "proto": "final",
-        "rmr": 1
-    },
-    "final2": {
-        "proto": "final",
-        "rmr": 2
-    },
-    "final3": {
-        "proto": "final",
         "rmr": 3
     },
     "demigod": {
