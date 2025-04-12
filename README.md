@@ -10,6 +10,20 @@ multiple instances of `player` working as a team.
 > **Output (Example)**
 
 ```
+(x 2) weak3 (3 HP, 3 Armor, 3 STR, 10 DEX, 10 WIL, d4)
+ vs.
+average1 (6 HP, 1 Armor, 6 STR, 10 DEX, 10 WIL, d6)
+#####################
+ Wins:        96%
+   Kills:     47%
+   Routs:     49%
+   (Scars):   0.36
+   (Injured): 0.26
+   (Downed):  0.24
+   (Deaths):  0.06
+ Losses:      4%
+#####################
+ Avg. Rounds: 3.5
 ```
 
 Not only will it tell you how often the player wins, it will even tell you if
